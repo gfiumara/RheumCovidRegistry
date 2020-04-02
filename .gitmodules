@@ -1,6 +1,7 @@
 [submodule "ResearchKit"]
 	path = ResearchKit
-	url = https://github.com/ResearchKit/ResearchKit.git
+	url = https://github.com/gfiumara/ResearchKit.git
+	branch = new-phases
 [submodule "AppCore"]
 	path = AppCore
 	url = https://github.com/ResearchKit/AppCore.git
