@@ -1,0 +1,6 @@
+[submodule "ResearchKit"]
+	path = ResearchKit
+	url = https://github.com/ResearchKit/ResearchKit.git
+[submodule "AppCore"]
+	path = AppCore
+	url = https://github.com/ResearchKit/AppCore.git
