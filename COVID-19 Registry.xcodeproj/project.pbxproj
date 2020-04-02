@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084F8442243618BF00452BEC /* APCAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084F8441243618BF00452BEC /* APCAppCore.framework */; };
+		084F8443243618BF00452BEC /* APCAppCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 084F8441243618BF00452BEC /* APCAppCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		084F8446243618C500452BEC /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084F8445243618C500452BEC /* ResearchKit.framework */; };
+		084F8447243618C500452BEC /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 084F8445243618C500452BEC /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		084F846924361B8200452BEC /* BridgeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084F846824361B8200452BEC /* BridgeSDK.framework */; };
 		08B1F6C12436165100B8348E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C02436165100B8348E /* AppDelegate.m */; };
 		08B1F6C42436165100B8348E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C32436165100B8348E /* SceneDelegate.m */; };
 		08B1F6C72436165100B8348E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C62436165100B8348E /* ViewController.m */; };
@@ -16,7 +21,25 @@
 		08B1F6D22436165700B8348E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6D12436165700B8348E /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		084F8444243618BF00452BEC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				084F8447243618C500452BEC /* ResearchKit.framework in Embed Frameworks */,
+				084F8443243618BF00452BEC /* APCAppCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		084F8441243618BF00452BEC /* APCAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APCAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		084F8445243618C500452BEC /* ResearchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ResearchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		084F846824361B8200452BEC /* BridgeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BridgeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B1F6BC2436165100B8348E /* COVID-19 Registry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Registry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B1F6BF2436165100B8348E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B1F6C02436165100B8348E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,17 +59,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				084F846924361B8200452BEC /* BridgeSDK.framework in Frameworks */,
+				084F8446243618C500452BEC /* ResearchKit.framework in Frameworks */,
+				084F8442243618BF00452BEC /* APCAppCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084F8440243618BF00452BEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				084F846824361B8200452BEC /* BridgeSDK.framework */,
+				084F8445243618C500452BEC /* ResearchKit.framework */,
+				084F8441243618BF00452BEC /* APCAppCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		08B1F6B32436165100B8348E = {
 			isa = PBXGroup;
 			children = (
 				08B1F6BE2436165100B8348E /* COVID-19 Registry */,
 				08B1F6BD2436165100B8348E /* Products */,
+				084F8440243618BF00452BEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +123,7 @@
 				08B1F6B82436165100B8348E /* Sources */,
 				08B1F6B92436165100B8348E /* Frameworks */,
 				08B1F6BA2436165100B8348E /* Resources */,
+				084F8444243618BF00452BEC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
