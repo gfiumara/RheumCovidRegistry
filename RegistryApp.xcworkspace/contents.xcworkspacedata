@@ -2,13 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Bridge-iOS-SDK/BridgeSDK.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ResearchKit/ResearchKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:AppCore/APCAppCore/APCAppCore.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:COVID-19 Registry.xcodeproj">
