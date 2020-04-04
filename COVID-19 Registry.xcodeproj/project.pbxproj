@@ -11,6 +11,7 @@
 		084F8447243618C500452BEC /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 084F8445243618C500452BEC /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		086CEDB52438E8440013B904 /* RCRCOVID19InfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDB42438E8440013B904 /* RCRCOVID19InfoStep.m */; };
 		086CEDBB2438FC520013B904 /* RCRBiographicalInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDBA2438FC520013B904 /* RCRBiographicalInfoStep.m */; };
+		086CEDBE2438FD6A0013B904 /* RCRRheumInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDBD2438FD6A0013B904 /* RCRRheumInfoStep.m */; };
 		08B1F6C12436165100B8348E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C02436165100B8348E /* AppDelegate.m */; };
 		08B1F6C42436165100B8348E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C32436165100B8348E /* SceneDelegate.m */; };
 		08B1F6C72436165100B8348E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C62436165100B8348E /* ViewController.m */; };
@@ -43,6 +44,8 @@
 		086CEDB42438E8440013B904 /* RCRCOVID19InfoStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRCOVID19InfoStep.m; path = steps/RCRCOVID19InfoStep.m; sourceTree = "<group>"; };
 		086CEDB92438FC1E0013B904 /* RCRBiographicalInfoStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCRBiographicalInfoStep.h; path = steps/RCRBiographicalInfoStep.h; sourceTree = "<group>"; };
 		086CEDBA2438FC520013B904 /* RCRBiographicalInfoStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCRBiographicalInfoStep.m; path = steps/RCRBiographicalInfoStep.m; sourceTree = "<group>"; };
+		086CEDBC2438FD6A0013B904 /* RCRRheumInfoStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCRRheumInfoStep.h; path = steps/RCRRheumInfoStep.h; sourceTree = "<group>"; };
+		086CEDBD2438FD6A0013B904 /* RCRRheumInfoStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRRheumInfoStep.m; path = steps/RCRRheumInfoStep.m; sourceTree = "<group>"; };
 		08B1F6BC2436165100B8348E /* COVID-19 Registry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Registry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B1F6BF2436165100B8348E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B1F6C02436165100B8348E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				086CEDBA2438FC520013B904 /* RCRBiographicalInfoStep.m */,
 				086CEDB32438E8440013B904 /* RCRCOVID19InfoStep.h */,
 				086CEDB42438E8440013B904 /* RCRCOVID19InfoStep.m */,
+				086CEDBC2438FD6A0013B904 /* RCRRheumInfoStep.h */,
+				086CEDBD2438FD6A0013B904 /* RCRRheumInfoStep.m */,
 			);
 			name = Steps;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				086CEDBB2438FC520013B904 /* RCRBiographicalInfoStep.m in Sources */,
 				08B1F6C12436165100B8348E /* AppDelegate.m in Sources */,
 				08E31D0524362DF000398107 /* RCRRegistryEntryTask.m in Sources */,
+				086CEDBE2438FD6A0013B904 /* RCRRheumInfoStep.m in Sources */,
 				08B1F6D22436165700B8348E /* main.m in Sources */,
 				08B1F6C42436165100B8348E /* SceneDelegate.m in Sources */,
 			);

@@ -18,7 +18,8 @@
 {
 	NSArray *steps = @[
 		[RCRBiographicalInfoStep new],
-		[RCRCOVID19InfoStep new]
+		[RCRCOVID19InfoStep new],
+		[RCRRheumInfoStep new]
 	];
 
 	self = [super initWithIdentifier:@"RegistryEntryTask" steps:steps];
