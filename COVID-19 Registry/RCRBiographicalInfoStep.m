@@ -36,7 +36,8 @@ NSString * const BiographicalInfoStep_GenderQuestionIdentifier = @"BiographicalI
 
 	ORKFormItem *question = [[ORKFormItem alloc] initWithIdentifier:BiographicalInfoStep_AgeQuestionIdentifier
 								   text:NSLocalizedString(@"Patient Age", @"")
-							   answerFormat:format];
+							   answerFormat:format
+							       optional:NO];
 
 	return (question);
 }
@@ -48,7 +49,8 @@ NSString * const BiographicalInfoStep_GenderQuestionIdentifier = @"BiographicalI
 
 	ORKFormItem *question = [[ORKFormItem alloc] initWithIdentifier:BiographicalInfoStep_GenderQuestionIdentifier
 								   text:NSLocalizedString(@"Patient Gender", @"")
-							   answerFormat:format];
+							   answerFormat:format
+							       optional:NO];
 	return (question);
 }
 
