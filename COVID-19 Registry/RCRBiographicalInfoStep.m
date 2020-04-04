@@ -33,6 +33,7 @@ NSString * const BiographicalInfoStep_GenderQuestionIdentifier = @"BiographicalI
 - (ORKFormItem *)ageQuestion
 {
 	ORKNumericAnswerFormat *format = [ORKNumericAnswerFormat integerAnswerFormatWithUnit:@"years"];
+	format.minimum = @(19);
 
 	ORKFormItem *question = [[ORKFormItem alloc] initWithIdentifier:BiographicalInfoStep_AgeQuestionIdentifier
 								   text:NSLocalizedString(@"Patient Age", @"")
