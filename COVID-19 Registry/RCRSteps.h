@@ -11,5 +11,6 @@
 #import "RCRBiographicalInfoStep.h"
 #import "RCRCOVID19InfoStep.h"
 #import "RCRRheumInfoStep.h"
+#import "RCRRheumTreatmentInfoStep.h"
 
 #endif /* RCRSteps_h */
