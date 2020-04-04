@@ -1,9 +1,4 @@
-//
-//  RCRCOVID19InfoStep.h
-//  COVID-19 Registry
-//
-//  Created by Fiumara, Gregory (Fed) on 4/4/20.
-//
+// SPDX-License-Identifier: CC0-1.0
 
 #import <ResearchKit/ResearchKit.h>
 

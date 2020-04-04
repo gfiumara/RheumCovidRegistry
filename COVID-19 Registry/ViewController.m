@@ -1,10 +1,4 @@
-//
-//  ViewController.m
-//  COVID-19 Registry
-//
-//  Created by Fiumara, Gregory (Fed) on 4/2/20.
-//
-
+// SPDX-License-Identifier: CC0-1.0
 
 @import ResearchKit;
 
