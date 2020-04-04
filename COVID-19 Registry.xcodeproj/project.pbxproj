@@ -15,7 +15,6 @@
 		086CEDC1243900110013B904 /* RCRRheumTreatmentInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDC0243900110013B904 /* RCRRheumTreatmentInfoStep.m */; };
 		086CEDC72439052E0013B904 /* ORKAnswerFormat+YesNoUnknown.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDC62439052E0013B904 /* ORKAnswerFormat+YesNoUnknown.m */; };
 		086CEDCA243917220013B904 /* RCRMedicationAtDiagnosisStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDC9243917220013B904 /* RCRMedicationAtDiagnosisStep.m */; };
-		086CEDD024391E960013B904 /* RCRRheumTreatmentInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDCF24391E950013B904 /* RCRRheumTreatmentInfoStep.m */; };
 		086CEDD324391EA50013B904 /* RCRMorePatientInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDD224391EA50013B904 /* RCRMorePatientInfoStep.m */; };
 		086CEDD62439215D0013B904 /* RCRLabResultsStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDD52439215D0013B904 /* RCRLabResultsStep.m */; };
 		086CEDD9243922660013B904 /* RCRFollowUpStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDD8243922660013B904 /* RCRFollowUpStep.m */; };
@@ -256,7 +255,6 @@
 				086CEDD9243922660013B904 /* RCRFollowUpStep.m in Sources */,
 				086CEDC1243900110013B904 /* RCRRheumTreatmentInfoStep.m in Sources */,
 				08E31D0524362DF000398107 /* RCRRegistryEntryTask.m in Sources */,
-				086CEDD024391E960013B904 /* RCRRheumTreatmentInfoStep.m in Sources */,
 				086CEDCA243917220013B904 /* RCRMedicationAtDiagnosisStep.m in Sources */,
 				086CEDC72439052E0013B904 /* ORKAnswerFormat+YesNoUnknown.m in Sources */,
 				086CEDBE2438FD6A0013B904 /* RCRRheumInfoStep.m in Sources */,
