@@ -23,7 +23,9 @@
 		[[RCRRheumTreatmentInfoStep alloc] initWithMedicineNumber:1],
 		[RCRMedicationAtDiagnosisStep new],
 		[RCRMorePatientInfoStep new],
-		[RCRLabResultsStep new]
+		[RCRLabResultsStep new],
+		[RCRLessonsStep new],
+		[RCRFollowUpStep new]
 	];
 
 	self = [super initWithIdentifier:@"RegistryEntryTask" steps:steps];

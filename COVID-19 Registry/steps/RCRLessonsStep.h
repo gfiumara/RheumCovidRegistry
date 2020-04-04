@@ -1,5 +1,5 @@
 //
-//  RCRLabResultsStep.h
+//  RCRLessonsStep.h
 //  COVID-19 Registry
 //
 //  Created by Fiumara, Gregory (Fed) on 4/4/20.
@@ -9,10 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-FOUNDATION_EXPORT NSString * const LabResultsInfoStepIdentifier;
-FOUNDATION_EXPORT NSString * const LabResultsInfoStep_LabResultsExistIdentifier;
+FOUNDATION_EXPORT NSString * const LessonsStepIdentifier;
+FOUNDATION_EXPORT NSString * const LessonsStep_LessonsIdentifier;
 
-@interface RCRLabResultsStep : ORKFormStep
+@interface RCRLessonsStep : ORKFormStep
 
 + (instancetype)new;
 - (instancetype)init NS_DESIGNATED_INITIALIZER;

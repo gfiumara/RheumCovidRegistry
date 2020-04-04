@@ -10,7 +10,9 @@
 
 #import "RCRBiographicalInfoStep.h"
 #import "RCRCOVID19InfoStep.h"
+#import "RCRFollowUpStep.h"
 #import "RCRLabResultsStep.h"
+#import "RCRLessonsStep.h"
 #import "RCRMedicationAtDiagnosisStep.h"
 #import "RCRMorePatientInfoStep.h"
 #import "RCRRheumInfoStep.h"

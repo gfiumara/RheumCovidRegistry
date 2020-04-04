@@ -18,6 +18,8 @@
 		086CEDD024391E960013B904 /* RCRRheumTreatmentInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDCF24391E950013B904 /* RCRRheumTreatmentInfoStep.m */; };
 		086CEDD324391EA50013B904 /* RCRMorePatientInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDD224391EA50013B904 /* RCRMorePatientInfoStep.m */; };
 		086CEDD62439215D0013B904 /* RCRLabResultsStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDD52439215D0013B904 /* RCRLabResultsStep.m */; };
+		086CEDD9243922660013B904 /* RCRFollowUpStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDD8243922660013B904 /* RCRFollowUpStep.m */; };
+		086CEDDC243924520013B904 /* RCRLessonsStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDDB243924520013B904 /* RCRLessonsStep.m */; };
 		08B1F6C12436165100B8348E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C02436165100B8348E /* AppDelegate.m */; };
 		08B1F6C42436165100B8348E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C32436165100B8348E /* SceneDelegate.m */; };
 		08B1F6C72436165100B8348E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C62436165100B8348E /* ViewController.m */; };
@@ -64,6 +66,10 @@
 		086CEDD224391EA50013B904 /* RCRMorePatientInfoStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCRMorePatientInfoStep.m; path = steps/RCRMorePatientInfoStep.m; sourceTree = "<group>"; };
 		086CEDD42439215D0013B904 /* RCRLabResultsStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCRLabResultsStep.h; path = steps/RCRLabResultsStep.h; sourceTree = "<group>"; };
 		086CEDD52439215D0013B904 /* RCRLabResultsStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRLabResultsStep.m; path = steps/RCRLabResultsStep.m; sourceTree = "<group>"; };
+		086CEDD7243922660013B904 /* RCRFollowUpStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCRFollowUpStep.h; path = steps/RCRFollowUpStep.h; sourceTree = "<group>"; };
+		086CEDD8243922660013B904 /* RCRFollowUpStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRFollowUpStep.m; path = steps/RCRFollowUpStep.m; sourceTree = "<group>"; };
+		086CEDDA243924520013B904 /* RCRLessonsStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCRLessonsStep.h; path = steps/RCRLessonsStep.h; sourceTree = "<group>"; };
+		086CEDDB243924520013B904 /* RCRLessonsStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRLessonsStep.m; path = steps/RCRLessonsStep.m; sourceTree = "<group>"; };
 		08B1F6BC2436165100B8348E /* COVID-19 Registry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Registry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B1F6BF2436165100B8348E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B1F6C02436165100B8348E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,6 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				08E31D0224362CDF00398107 /* RCRSteps.h */,
+				086CEDD7243922660013B904 /* RCRFollowUpStep.h */,
+				086CEDD8243922660013B904 /* RCRFollowUpStep.m */,
+				086CEDDA243924520013B904 /* RCRLessonsStep.h */,
+				086CEDDB243924520013B904 /* RCRLessonsStep.m */,
 				086CEDB92438FC1E0013B904 /* RCRBiographicalInfoStep.h */,
 				086CEDBA2438FC520013B904 /* RCRBiographicalInfoStep.m */,
 				086CEDB32438E8440013B904 /* RCRCOVID19InfoStep.h */,
@@ -242,6 +252,8 @@
 				086CEDBB2438FC520013B904 /* RCRBiographicalInfoStep.m in Sources */,
 				08B1F6C12436165100B8348E /* AppDelegate.m in Sources */,
 				086CEDD324391EA50013B904 /* RCRMorePatientInfoStep.m in Sources */,
+				086CEDDC243924520013B904 /* RCRLessonsStep.m in Sources */,
+				086CEDD9243922660013B904 /* RCRFollowUpStep.m in Sources */,
 				086CEDC1243900110013B904 /* RCRRheumTreatmentInfoStep.m in Sources */,
 				08E31D0524362DF000398107 /* RCRRegistryEntryTask.m in Sources */,
 				086CEDD024391E960013B904 /* RCRRheumTreatmentInfoStep.m in Sources */,
