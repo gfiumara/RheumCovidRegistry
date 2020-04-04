@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		084F8446243618C500452BEC /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084F8445243618C500452BEC /* ResearchKit.framework */; };
 		084F8447243618C500452BEC /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 084F8445243618C500452BEC /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		086CEDB52438E8440013B904 /* RCRCOVID19InfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDB42438E8440013B904 /* RCRCOVID19InfoStep.m */; };
 		08B1F6C12436165100B8348E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C02436165100B8348E /* AppDelegate.m */; };
 		08B1F6C42436165100B8348E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C32436165100B8348E /* SceneDelegate.m */; };
 		08B1F6C72436165100B8348E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C62436165100B8348E /* ViewController.m */; };
@@ -38,6 +39,8 @@
 		084F8441243618BF00452BEC /* APCAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APCAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		084F8445243618C500452BEC /* ResearchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ResearchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		084F846824361B8200452BEC /* BridgeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BridgeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		086CEDB32438E8440013B904 /* RCRCOVID19InfoStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCRCOVID19InfoStep.h; path = steps/RCRCOVID19InfoStep.h; sourceTree = "<group>"; };
+		086CEDB42438E8440013B904 /* RCRCOVID19InfoStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRCOVID19InfoStep.m; path = steps/RCRCOVID19InfoStep.m; sourceTree = "<group>"; };
 		08B1F6BC2436165100B8348E /* COVID-19 Registry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Registry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B1F6BF2436165100B8348E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B1F6C02436165100B8348E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				08E31D0224362CDF00398107 /* RCRSteps.h */,
 				08E31CFF243627EE00398107 /* RCRBiographicalInfoStep.h */,
 				08E31D00243627EE00398107 /* RCRBiographicalInfoStep.m */,
+				086CEDB32438E8440013B904 /* RCRCOVID19InfoStep.h */,
+				086CEDB42438E8440013B904 /* RCRCOVID19InfoStep.m */,
 			);
 			name = Steps;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086CEDB52438E8440013B904 /* RCRCOVID19InfoStep.m in Sources */,
 				08B1F6C72436165100B8348E /* ViewController.m in Sources */,
 				08B1F6C12436165100B8348E /* AppDelegate.m in Sources */,
 				08E31D0524362DF000398107 /* RCRRegistryEntryTask.m in Sources */,

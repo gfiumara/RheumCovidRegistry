@@ -9,5 +9,6 @@
 #define RCRSteps_h
 
 #import "RCRBiographicalInfoStep.h"
+#import "RCRCOVID19InfoStep.h"
 
 #endif /* RCRSteps_h */

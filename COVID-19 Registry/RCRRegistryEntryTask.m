@@ -17,7 +17,8 @@
 - (instancetype)init
 {
 	NSArray *steps = @[
-		[RCRBiographicalInfoStep new]
+		[RCRBiographicalInfoStep new],
+		[RCRCOVID19InfoStep new]
 	];
 
 	self = [super initWithIdentifier:@"RegistryEntryTask" steps:steps];
