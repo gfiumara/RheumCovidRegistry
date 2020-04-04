@@ -21,7 +21,8 @@
 		[RCRCOVID19InfoStep new],
 		[RCRRheumInfoStep new],
 		[[RCRRheumTreatmentInfoStep alloc] initWithMedicineNumber:1],
-		[RCRMedicationAtDiagnosisStep new]
+		[RCRMedicationAtDiagnosisStep new],
+		[RCRMorePatientInfoStep new]
 	];
 
 	self = [super initWithIdentifier:@"RegistryEntryTask" steps:steps];

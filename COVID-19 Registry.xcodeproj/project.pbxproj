@@ -15,6 +15,8 @@
 		086CEDC1243900110013B904 /* RCRRheumTreatmentInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDC0243900110013B904 /* RCRRheumTreatmentInfoStep.m */; };
 		086CEDC72439052E0013B904 /* ORKAnswerFormat+YesNoUnknown.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDC62439052E0013B904 /* ORKAnswerFormat+YesNoUnknown.m */; };
 		086CEDCA243917220013B904 /* RCRMedicationAtDiagnosisStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDC9243917220013B904 /* RCRMedicationAtDiagnosisStep.m */; };
+		086CEDD024391E960013B904 /* RCRRheumTreatmentInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDCF24391E950013B904 /* RCRRheumTreatmentInfoStep.m */; };
+		086CEDD324391EA50013B904 /* RCRMorePatientInfoStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CEDD224391EA50013B904 /* RCRMorePatientInfoStep.m */; };
 		08B1F6C12436165100B8348E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C02436165100B8348E /* AppDelegate.m */; };
 		08B1F6C42436165100B8348E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C32436165100B8348E /* SceneDelegate.m */; };
 		08B1F6C72436165100B8348E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B1F6C62436165100B8348E /* ViewController.m */; };
@@ -55,6 +57,10 @@
 		086CEDC62439052E0013B904 /* ORKAnswerFormat+YesNoUnknown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ORKAnswerFormat+YesNoUnknown.m"; sourceTree = "<group>"; };
 		086CEDC8243917220013B904 /* RCRMedicationAtDiagnosisStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCRMedicationAtDiagnosisStep.h; path = steps/RCRMedicationAtDiagnosisStep.h; sourceTree = "<group>"; };
 		086CEDC9243917220013B904 /* RCRMedicationAtDiagnosisStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRMedicationAtDiagnosisStep.m; path = steps/RCRMedicationAtDiagnosisStep.m; sourceTree = "<group>"; };
+		086CEDCE24391E950013B904 /* RCRRheumTreatmentInfoStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCRRheumTreatmentInfoStep.h; path = steps/RCRRheumTreatmentInfoStep.h; sourceTree = "<group>"; };
+		086CEDCF24391E950013B904 /* RCRRheumTreatmentInfoStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCRRheumTreatmentInfoStep.m; path = steps/RCRRheumTreatmentInfoStep.m; sourceTree = "<group>"; };
+		086CEDD124391EA50013B904 /* RCRMorePatientInfoStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCRMorePatientInfoStep.h; path = steps/RCRMorePatientInfoStep.h; sourceTree = "<group>"; };
+		086CEDD224391EA50013B904 /* RCRMorePatientInfoStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCRMorePatientInfoStep.m; path = steps/RCRMorePatientInfoStep.m; sourceTree = "<group>"; };
 		08B1F6BC2436165100B8348E /* COVID-19 Registry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Registry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B1F6BF2436165100B8348E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B1F6C02436165100B8348E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,8 +152,12 @@
 				086CEDBD2438FD6A0013B904 /* RCRRheumInfoStep.m */,
 				086CEDBF243900110013B904 /* RCRRheumTreatmentInfoStep.h */,
 				086CEDC0243900110013B904 /* RCRRheumTreatmentInfoStep.m */,
+				086CEDD124391EA50013B904 /* RCRMorePatientInfoStep.h */,
+				086CEDD224391EA50013B904 /* RCRMorePatientInfoStep.m */,
 				086CEDC8243917220013B904 /* RCRMedicationAtDiagnosisStep.h */,
 				086CEDC9243917220013B904 /* RCRMedicationAtDiagnosisStep.m */,
+				086CEDCE24391E950013B904 /* RCRRheumTreatmentInfoStep.h */,
+				086CEDCF24391E950013B904 /* RCRRheumTreatmentInfoStep.m */,
 			);
 			name = Steps;
 			sourceTree = "<group>";
@@ -226,8 +236,10 @@
 				08B1F6C72436165100B8348E /* ViewController.m in Sources */,
 				086CEDBB2438FC520013B904 /* RCRBiographicalInfoStep.m in Sources */,
 				08B1F6C12436165100B8348E /* AppDelegate.m in Sources */,
+				086CEDD324391EA50013B904 /* RCRMorePatientInfoStep.m in Sources */,
 				086CEDC1243900110013B904 /* RCRRheumTreatmentInfoStep.m in Sources */,
 				08E31D0524362DF000398107 /* RCRRegistryEntryTask.m in Sources */,
+				086CEDD024391E960013B904 /* RCRRheumTreatmentInfoStep.m in Sources */,
 				086CEDCA243917220013B904 /* RCRMedicationAtDiagnosisStep.m in Sources */,
 				086CEDC72439052E0013B904 /* ORKAnswerFormat+YesNoUnknown.m in Sources */,
 				086CEDBE2438FD6A0013B904 /* RCRRheumInfoStep.m in Sources */,
