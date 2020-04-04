@@ -3,9 +3,3 @@
 	url = https://github.com/gfiumara/ResearchKit.git
 	branch = new-phases
 	ignore = all
-[submodule "AppCore"]
-	path = AppCore
-	url = https://github.com/ResearchKit/AppCore.git
-[submodule "Bridge-iOS-SDK"]
-	path = Bridge-iOS-SDK
-	url = https://github.com/Sage-Bionetworks/Bridge-iOS-SDK.git
