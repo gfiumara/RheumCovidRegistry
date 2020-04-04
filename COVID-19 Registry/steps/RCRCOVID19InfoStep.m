@@ -5,6 +5,8 @@
 //  Created by Fiumara, Gregory (Fed) on 4/4/20.
 //
 
+#import "ORKAnswerFormat+YesNoUnknown.h"
+
 #import "RCRCOVID19InfoStep.h"
 
 NSString * const COVID19InfoStepIdentifier = @"COVID19Info";
@@ -102,11 +104,7 @@ NSString * const COVID19InfoStep_InfectionInquisitionIdentifier = @"COVID19Info_
 
 - (ORKFormItem *)hadSymptomsQuestion
 {
-	NSMutableArray<ORKTextChoice *> *choices = [NSMutableArray new];
-	[choices addObject:[ORKTextChoice choiceWithText:NSLocalizedString(@"Yes", @"") value:@"Yes"]];
-	[choices addObject:[ORKTextChoice choiceWithText:NSLocalizedString(@"No", @"") value:@"No"]];
-	[choices addObject:[ORKTextChoice choiceWithText:NSLocalizedString(@"Unknown", @"") value:@"Unknown"]];
-	ORKAnswerFormat *format = [ORKAnswerFormat choiceAnswerFormatWithStyle:ORKChoiceAnswerStyleSingleChoice textChoices:choices];
+	ORKAnswerFormat *format = [ORKAnswerFormat yesNoUnknown];
 
 	ORKFormItem *question = [[ORKFormItem alloc] initWithIdentifier:COVID19InfoStep_HadSymptomsIdentifier
 								   text:NSLocalizedString(@"Has this patient ever had symptoms of COVID-19 infection?", @"")
