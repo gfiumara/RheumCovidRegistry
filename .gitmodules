@@ -2,4 +2,4 @@
 	path = ResearchKit
 	url = https://github.com/gfiumara/ResearchKit.git
 	branch = new-phases
-	ignore = all
+	ignore = dirty
