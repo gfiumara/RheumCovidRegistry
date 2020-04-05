@@ -69,7 +69,7 @@
 		086CEDD8243922660013B904 /* RCRFollowUpStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRFollowUpStep.m; path = steps/RCRFollowUpStep.m; sourceTree = "<group>"; };
 		086CEDDA243924520013B904 /* RCRLessonsStep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCRLessonsStep.h; path = steps/RCRLessonsStep.h; sourceTree = "<group>"; };
 		086CEDDB243924520013B904 /* RCRLessonsStep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCRLessonsStep.m; path = steps/RCRLessonsStep.m; sourceTree = "<group>"; };
-		08B1F6BC2436165100B8348E /* COVID-19 Registry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Registry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B1F6BC2436165100B8348E /* C-19 Registry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C-19 Registry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B1F6BF2436165100B8348E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B1F6C02436165100B8348E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		08B1F6C22436165100B8348E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		08B1F6BD2436165100B8348E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08B1F6BC2436165100B8348E /* COVID-19 Registry.app */,
+				08B1F6BC2436165100B8348E /* C-19 Registry.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,9 +179,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08B1F6BB2436165100B8348E /* COVID-19 Registry */ = {
+		08B1F6BB2436165100B8348E /* C-19 Registry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08B1F6D52436165700B8348E /* Build configuration list for PBXNativeTarget "COVID-19 Registry" */;
+			buildConfigurationList = 08B1F6D52436165700B8348E /* Build configuration list for PBXNativeTarget "C-19 Registry" */;
 			buildPhases = (
 				08B1F6B82436165100B8348E /* Sources */,
 				08B1F6B92436165100B8348E /* Frameworks */,
@@ -192,9 +192,9 @@
 			);
 			dependencies = (
 			);
-			name = "COVID-19 Registry";
+			name = "C-19 Registry";
 			productName = "COVID-19 Registry";
-			productReference = 08B1F6BC2436165100B8348E /* COVID-19 Registry.app */;
+			productReference = 08B1F6BC2436165100B8348E /* C-19 Registry.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08B1F6BB2436165100B8348E /* COVID-19 Registry */,
+				08B1F6BB2436165100B8348E /* C-19 Registry */,
 			);
 		};
 /* End PBXProject section */
@@ -444,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08B1F6D52436165700B8348E /* Build configuration list for PBXNativeTarget "COVID-19 Registry" */ = {
+		08B1F6D52436165700B8348E /* Build configuration list for PBXNativeTarget "C-19 Registry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08B1F6D62436165700B8348E /* Debug */,
