@@ -3,7 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>NSHealthShareUsageDescription</key>
-	<string>Obtain default information to fill in during the registry entry.</string>
+	<string>Obtain default information to fill in during the registry entry (ResearchKit).</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take photograph of patient for registry entry (ResearchKit).</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Update information provided for the rest of the system (ResearchKit).</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Provide your location for the registry entry (ResearchKit).</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Provide your location for the registry entry (ResearchKit).</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Record voice notes for the registry entry (ResearchKit).</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Record your motions while taking notes for the registry entry (ResearchKit).</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>See if your speech is changing during the registry entry (ResearchKit).</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>See if you are talking during the registry entry (ResearchKit).</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
